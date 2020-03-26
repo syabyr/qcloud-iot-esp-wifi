@@ -28,10 +28,10 @@
 
 #ifdef DEBUG_DEV_INFO_USED
 /* product Id  */
-static char sg_product_id[MAX_SIZE_OF_PRODUCT_ID + 1]    = "0WUKPUCOTC";
+static char sg_product_id[MAX_SIZE_OF_PRODUCT_ID + 1]    = "LBAWLO5NH9";
 
 /* device name */
-static char sg_device_name[MAX_SIZE_OF_DEVICE_NAME + 1]  = "GW001";
+static char sg_device_name[MAX_SIZE_OF_DEVICE_NAME + 1]  = "testkey1";
 
 #ifdef DEV_DYN_REG_ENABLED
 /* product secret for device dynamic Registration  */
@@ -45,7 +45,7 @@ static char sg_device_cert_file_name[MAX_SIZE_OF_DEVICE_CERT_FILE_NAME + 1]     
 static char sg_device_privatekey_file_name[MAX_SIZE_OF_DEVICE_SECRET_FILE_NAME + 1] = "YOUR_DEVICE_NAME_private.key";
 #else
 /* device secret of PSK device */
-static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "lKOlCueXsih1OZdjdd2TWA==";
+static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "DyVd8QHbtOAlV1GrqckTCg==";
 #endif
 
 #ifdef GATEWAY_ENABLED

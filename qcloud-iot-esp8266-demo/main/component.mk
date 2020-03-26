@@ -27,3 +27,7 @@ endif
 ifndef CONFIG_QCLOUD_IOT_EXPLORER_ENABLED
 COMPONENT_SRCDIRS += ./samples/mqtt
 endif
+
+ifdef CONFIG_PMS5003_ENABLED
+COMPONENT_SRCDIRS += ./samples/pms5003
+endif

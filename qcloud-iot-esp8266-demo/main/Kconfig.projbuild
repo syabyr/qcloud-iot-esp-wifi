@@ -24,6 +24,8 @@ choice DEMO_EXAMPLE_SELECT
         bool "Raw data example"
 	config MQTT_ENABLED
         bool "Mqtt example"	
+    config PMS5003_ENABLED
+        bool "pms5003 example"
 endchoice	
 
 config DEMO_EXAMPLE_SELECT
@@ -33,6 +35,7 @@ config DEMO_EXAMPLE_SELECT
     default 2 if OTA_ENABLED
     default 3 if RAW_DATA_ENABLED
     default 4 if MQTT_ENABLED
+    default 5 if PMS5003_ENABLED
 
 
 config DEMO_WIFI_BOARDING
